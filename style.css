@@ -62,13 +62,13 @@ div{
     border-radius: 10px;
 }
 @media screen and (max-width: 900px){
-    section{
+    article{
     grid-template-columns: 1fr 1fr
     }
 }
 
 @media screen and (max-width: 800px){
-    section{
+    article{
     grid-template-columns: 1fr 1fr
     }
 }
@@ -85,7 +85,7 @@ div{
 
 
 @media screen and (max-width: 700px){
-    section{
+    article{
     grid-template-columns: 1fr 
     }
 }
