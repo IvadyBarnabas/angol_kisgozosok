@@ -1,0 +1,95 @@
+*{
+box-sizing: border-box;
+
+}
+nav{
+background-color: rgb(34, 34, 34);
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+body{
+background-color: darkgray;
+max-width: 1200px;
+width: 80%;
+margin: auto;
+}
+h1{
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-align: center;
+letter-spacing: 5px;
+
+}
+a{
+text-decoration: none;
+border: white solid 3px;
+border-radius: 15%;
+color: white;
+background-color: rgb(34, 34, 34);
+padding: 7px    ;
+padding-right: 20px;
+margin: 10px;
+margin-top: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+
+}
+img{
+border-radius: 15%;
+border: rgb(34, 34, 34) 5px;
+width: 100%;
+
+}
+.tarolo{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+
+}
+div{
+border: solid rgb(34, 34, 34) 1px;
+
+}
+@media screen and (max-width: 900px){
+    .tarolo{
+    grid-template-columns: 1fr 1fr
+    }
+}
+
+@media screen and (max-width: 800px){
+    .tarolo{
+    grid-template-columns: 1fr 1fr
+    }
+}
+@media screen and (max-width: 16000px){
+    nav{
+    grid-template-columns: 1fr 1fr 
+    }
+}
+@media screen and (max-width: 700px){
+    nav{
+    grid-template-columns: 1fr 
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .tarolo{
+    grid-template-columns: 1fr 
+    }
+}
+
